@@ -138,7 +138,7 @@ a:focus-visible {
   background: var(--color-bg-elevated);
   border: 1px solid var(--color-separator);
   border-radius: var(--radius-lg);
-  box-shadow: -14px 14px 0 var(--color-accent-soft);
+  box-shadow: -10px 10px 0 var(--color-accent-soft);
 }
 
 .hero__portrait img {
@@ -226,6 +226,7 @@ a:focus-visible {
   margin: 0;
   font-weight: 700;
   letter-spacing: -0.045em;
+  line-height: 1.05;
   font-size: clamp(2.25rem, 4.5vw, 3.8rem);
 }
 
@@ -264,9 +265,9 @@ a:focus-visible {
 .project-art {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
-  height: 188px;
+  height: 184px;
   padding: 1.5rem;
   overflow: hidden;
   color: var(--project-tone);
@@ -276,15 +277,16 @@ a:focus-visible {
 
 .project-art::before {
   position: absolute;
-  left: 1.1rem;
-  bottom: -1.8rem;
-  color: currentColor;
+  left: 1.15rem;
+  bottom: -0.65rem;
   content: "0" counter(project);
-  font-size: 8rem;
+  color: currentColor;
+  font-size: clamp(4.5rem, 7vw, 5.8rem);
+  font-variant-numeric: tabular-nums;
   font-weight: 760;
-  letter-spacing: -0.09em;
+  letter-spacing: -0.08em;
   line-height: 1;
-  opacity: 0.14;
+  opacity: 0.16;
 }
 
 .project-icon {
@@ -292,14 +294,14 @@ a:focus-visible {
   z-index: 1;
   display: grid;
   place-items: center;
-  width: 78px;
-  height: 78px;
+  width: 76px;
+  height: 76px;
   color: currentColor;
 }
 
 .project-icon svg {
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
 }
 
 .project-card__body {
@@ -381,8 +383,10 @@ a:focus-visible {
 
 .contact h2 {
   margin: 0;
+  max-width: 780px;
   font-weight: 700;
   letter-spacing: -0.03em;
+  line-height: 1.05;
   font-size: clamp(2.4rem, 4.6vw, 4rem);
 }
 
@@ -459,7 +463,7 @@ a:focus-visible {
   background: #efede9;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--radius-lg);
-  box-shadow: 12px 12px 0 rgba(228, 162, 188, 0.35);
+  box-shadow: 8px 8px 0 rgba(228, 162, 188, 0.18);
 }
 
 .contact__portrait img {
