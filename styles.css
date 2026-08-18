@@ -261,6 +261,7 @@ a:focus-visible {
 .project-card:nth-child(4) { --project-surface: #e7e2ef; --project-tone: #584775; }
 .project-card:nth-child(5) { --project-surface: #dfe8ed; --project-tone: #355a6d; }
 .project-card:nth-child(6) { --project-surface: #efe1dc; --project-tone: #824536; }
+.project-card:nth-child(7) { --project-surface: #e3e6ea; --project-tone: #46505c; }
 
 .project-art {
   position: relative;
@@ -363,6 +364,7 @@ a:focus-visible {
   .project-card:nth-child(4) { --project-surface: #27232e; --project-tone: #b5a5d4; }
   .project-card:nth-child(5) { --project-surface: #20292e; --project-tone: #94b7ca; }
   .project-card:nth-child(6) { --project-surface: #2d2320; --project-tone: #daa091; }
+  .project-card:nth-child(7) { --project-surface: #23262b; --project-tone: #a8b3c2; }
 }
 
 /* Contact */
